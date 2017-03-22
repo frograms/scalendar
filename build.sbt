@@ -1,8 +1,8 @@
-organization := "com.github.philcali"
+organization := "com.frograms"
 
 name := "scalendar"
 
-version := "0.1.5"
+version := "0.1.5-FROGRAMS"
 
 scalaVersion := "2.12.1"
 
@@ -47,7 +47,7 @@ unmanagedClasspath in Compile += Attributed.blank(new java.io.File("doesnotexist
 pomIncludeRepository := { x => false }
 
 pomExtra := (
-  <url>https://github.com/philcali/scalendar</url>
+  <url>https://github.com/frograms/scalendar</url>
   <licenses>
     <license>
       <name>The MIT License</name>
@@ -56,14 +56,14 @@ pomExtra := (
     </license>
   </licenses>
   <scm>
-    <url>git@github.com:philcali/scalendar.git</url>
-    <connection>scm:git:git@github.com:philcali/scalendar.git</connection>
+    <url>git@github.com:frograms/scalendar.git</url>
+    <connection>scm:git:git@github.com:frograms/scalendar.git</connection>
   </scm>
   <developers>
     <developer>
-      <id>philcali</id>
-      <name>Philip Cali</name>
-      <url>http://philcalicode.blogspot.com/</url>
+      <id>frograms</id>
+      <name>Frograms inc.</name>
+      <url>http://www.frograms.com/</url>
     </developer>
   </developers>
 )
